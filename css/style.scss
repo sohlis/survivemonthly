@@ -38,17 +38,9 @@ $bigfont: "V_BL", "Helvetica Neue", "Helvetica", sans-serif;
 
 // HTML5 background video
 video {
-  position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1000; overflow: hidden;
+  position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: 100%; height: auto; z-index: -1000; overflow: hidden;
 }
 
-@media (max-width: 35.5em) {
-    video {
-        display: none;
-    }
-    .splash-container {
-        background-image: url("../img/mobile_poster.png");
-    }
-}
 
 
 
@@ -62,6 +54,22 @@ video {
 
 
 
+@media (max-width: 35.5em) {
+    video {
+        display: none;
+    }
+    .splash-container {
+        background-image: url("../img/mobile_poster.jpeg");
+        background-size: cover;
+    }
+    .smalllogo {
+        width: 8%;
+        margin-top: 0;
+        margin-bottom: 0;
+        // padding-right: 0;
+    }
+
+}
 
 
 
