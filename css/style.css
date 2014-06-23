@@ -8,7 +8,8 @@
   font-family: 'V_B-I';
   src: url("fonts/V_B-I.otf") format("opentype"), url("fonts/V_B-I.ttf") format("truetype"); }
 * {
-  font-family: "V_B", "Helvetica Neue", "Helvetica", sans-serif; }
+  font-family: "V_B", "Helvetica Neue", "Helvetica", sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 video {
   position: absolute;
@@ -27,6 +28,12 @@ video {
 
   .splash-container {
     background-image: url("../img/mobile_poster.png"); } }
+.smalllogo {
+  width: 7.5%;
+  margin-top: 0.1em;
+  margin-bottom: -0.5em;
+  padding-right: 0.5em; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -48,7 +55,7 @@ h4,
 h5,
 h6,
 label {
-  color: #34495e; }
+  color: #32351c; }
 
 .pure-img-responsive {
   max-width: 100%;
@@ -110,7 +117,7 @@ a.pure-button-primary {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
 
 .home-menu.pure-menu-open {
-  background: #2d3e50; }
+  background: #32351c; }
 
 .pure-menu.pure-menu-open.pure-menu-fixed {
   /* Fixed menus normally have a border at the bottom. */
@@ -119,9 +126,9 @@ a.pure-button-primary {
   z-index: 4; }
 
 .home-menu .pure-menu-heading {
-  color: white;
-  font-weight: 400;
-  font-size: 120%; }
+  color: #f59331;
+  font-size: 120%;
+  letter-spacing: 0.1625em; }
 
 .home-menu .pure-menu-selected a {
   color: white; }

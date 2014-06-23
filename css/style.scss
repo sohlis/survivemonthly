@@ -33,6 +33,7 @@ $bigfont: "V_BL", "Helvetica Neue", "Helvetica", sans-serif;
 
 * {
 	font-family: $mainfont;
+    -webkit-font-smoothing: antialiased;
 }
 
 // HTML5 background video
@@ -48,6 +49,27 @@ video {
         background-image: url("../img/mobile_poster.png");
     }
 }
+
+
+
+.smalllogo {
+    width: 7.5%;
+    margin-top: 0.1em;
+    margin-bottom: -0.5em;
+    padding-right: 0.5em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 // Purecss Marketing Page Layout CSS
 * {
@@ -73,7 +95,7 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: $dark-green;
 }
 
 .pure-img-responsive {
@@ -148,7 +170,7 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu.pure-menu-open {
-    background: #2d3e50;
+    background: $dark-green;
 }
 .pure-menu.pure-menu-open.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -158,9 +180,10 @@ a.pure-button-primary {
 }
 
 .home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
+    color: $orange;
+    // font-weight: 400;
     font-size: 120%;
+     letter-spacing: 0.1625em;
 }
 
 .home-menu .pure-menu-selected a {
