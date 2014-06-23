@@ -9,3 +9,14 @@
   src: url("fonts/V_B-I.otf") format("opentype"), url("fonts/V_B-I.ttf") format("truetype"); }
 * {
   font-family: "V_B", "Helvetica Neue", "Helvetica", sans-serif; }
+
+video {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden; }
