@@ -38,8 +38,20 @@ $bigfont: "V_BL", "Helvetica Neue", "Helvetica", sans-serif;
 
 // HTML5 background video
 video {
-  position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: 100%; height: auto; z-index: -1000; overflow: hidden;
+    background-color: $dark-green;
+  position: absolute; 
+  bottom: 0px; 
+  right: 0px; 
+  min-width: 100%; 
+  min-height: 100%; 
+  width: 100%; 
+  height: auto; 
+  z-index: -1000; 
+  overflow: hidden;
 }
+
+// ***TO DO*****
+// make the video scale work on medium sized screens
 
 
 
@@ -198,13 +210,14 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: #6FBEF3;
+    color: $light-green;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: #AECFE5;
+    color: $orange;
+    transition: 500ms;
 }
 
 
