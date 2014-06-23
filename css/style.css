@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'V_B';
+  src: url("fonts/V_B.otf") format("opentype"), url("fonts/V_B.ttf") format("truetype"); }
+@font-face {
+  font-family: 'V_BL';
+  src: url("fonts/V_BL.otf") format("opentype"), url("fonts/V_BL.ttf") format("truetype"); }
+@font-face {
+  font-family: 'V_B-I';
+  src: url("fonts/V_B-I.otf") format("opentype"), url("fonts/V_B-I.ttf") format("truetype"); }
+* {
+  font-family: "V_B", "Helvetica Neue", "Helvetica", sans-serif; }

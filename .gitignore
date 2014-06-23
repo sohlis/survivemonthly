@@ -1,4 +1,5 @@
 
 ### CodeKit ###
 */codekit-config.json
-/codekit-config.codekit
+/config.codekit
+/.sass-cache

@@ -1,3 +1,36 @@
+// Survive monthly 
+// by Stefan Sohlstrom
+
+
+// Brand colors
+$dark-green: #32351C;
+$light-green: #505D35;
+$orange: #F59331;
+
+// Font stuff
+@font-face {
+  font-family: 'V_B';
+  src: url('fonts/V_B.otf') format('opentype'), /* Modern Browsers */
+       url('fonts/V_B.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'V_BL';
+  src: url('fonts/V_BL.otf') format('opentype'), /* Modern Browsers */
+       url('fonts/V_BL.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'V_B-I';
+  src: url('fonts/V_B-I.otf') format('opentype'), /* Modern Browsers */
+       url('fonts/V_B-I.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+$mainfont: "V_B", "Helvetica Neue", "Helvetica", sans-serif;
+$italicfont: "V_B-I", "Helvetica Neue", "Helvetica", sans-serif;
+$bigfont: "V_BL", "Helvetica Neue", "Helvetica", sans-serif;
+
+// end font stuff
+
 * {
-	background-color: red;
+	font-family: $mainfont;
 }
